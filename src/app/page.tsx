@@ -1,13 +1,15 @@
 "use client";
+import { useLanguage } from "@/providers/language-provider";
 import styles from "./page.module.scss";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 export default function Main() {
   const router = useRouter();
+  const { defaultLanguage } = useLanguage();
 
   useEffect(() => {
-    router.push("/home");
+    router.push(`${defaultLanguage}/home`);
   }, [router]);
 
   return (

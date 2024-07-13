@@ -1,0 +1,28 @@
+.select {
+  appearance: none;
+  padding: 0.5rem;
+  font-size: var(--font-size-medium);
+  border: 1px solid var(--accent);
+  border-radius: 0.125rem;
+  background-color: var(--white);
+  color: var(--light-black);
+  cursor: pointer;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.select:hover,
+.select:focus {
+  color: var(--accent);
+}
+
+.option {
+  color: var(--light-black);
+  line-height: var(--line-height-medium);
+  background-color: var(--white);
+}
+
+.option:hover,
+.option:focus {
+  color: var(--accent)!important;
+}
