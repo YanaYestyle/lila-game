@@ -3,4 +3,12 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 1rem 0;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: var(--beige);
+  margin: 0.5rem 0;
 }

@@ -1,3 +1,7 @@
 {
-    "greeting": "Cześć"
+    "homePage": {
+        "game": "Gra",
+        "lila": "Lila",
+        "description": "Gra, która daje odpowiedzi"
+    }
 }

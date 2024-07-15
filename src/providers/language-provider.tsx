@@ -60,9 +60,13 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     return setCurrentLanguage(lang);
   };
 
+  const getNestedTranslation = (obj: any, key: string): string => {
+    return key.split(".").reduce((o, i) => o[i], obj);
+  };
+
   const t = (key: string) => {
     setLanguage(currentLanguage);
-    return translations[currentLanguage][key] || key;
+    return getNestedTranslation(translations[currentLanguage], key) || key;
   };
 
   return (

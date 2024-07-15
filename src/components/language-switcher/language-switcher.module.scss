@@ -2,7 +2,7 @@
   appearance: none;
   padding: 0.5rem;
   font-size: var(--font-size-medium);
-  border: 1px solid var(--accent);
+  border: 2px solid var(--light-beige);
   border-radius: 0.125rem;
   background-color: var(--white);
   color: var(--light-black);
@@ -13,7 +13,7 @@
 
 .select:hover,
 .select:focus {
-  color: var(--accent);
+  color: var(--light-beige);
 }
 
 .option {
