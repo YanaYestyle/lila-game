@@ -16,20 +16,19 @@ export default function Header({
   };
 
   return (
-    <>
-      <div className={header.container}>
+    <div className={header.container}>
+      <div className={header.content}>
         <Image
           src="/icons/feather.svg"
           alt="Feather logo"
           width={25}
           height={25}
-          priority={false}
+          priority={true}
           onClick={goHome}
         ></Image>
-
         {children}
       </div>
       <hr className={header.divider} />
-    </>
+    </div>
   );
 }

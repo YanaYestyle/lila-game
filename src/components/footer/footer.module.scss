@@ -1,10 +1,6 @@
 .container {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: var(--white);
-  z-index: 999;
 }
 
 .content {
@@ -19,4 +15,14 @@
   height: 1px;
   background: var(--beige);
   margin: 0.5rem 0;
+}
+
+.text {
+  color: var(--light-black);
+  font-size: 0.75em;
+}
+
+.images {
+  display: flex;
+  gap: 1em;
 }

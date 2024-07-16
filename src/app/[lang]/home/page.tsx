@@ -8,6 +8,10 @@ export default function Home() {
   const router = useRouter();
   const { t, currentLanguage } = useLanguage();
 
+  const goToGameRules = () => {
+    router.push(`/${currentLanguage}/game-rules`);
+  };
+
   const goToOnePlayerGame = () => {
     router.push(`/${currentLanguage}/one-player-game`);
   };
@@ -30,10 +34,12 @@ export default function Home() {
           <div className={home.content}>
             <div>{t("homePage.description")}</div>
             <div className={home.buttons}>
-              <Button onClick={goToOnePlayerGame}>
+              <Button onClick={goToGameRules}>
                 {t("homePage.buttons.gameRules")}
               </Button>
-              <Button onClick={goToOnePlayerGame}>{t("homePage.buttons.startSoloGame")}</Button>
+              <Button onClick={goToOnePlayerGame}>
+                {t("homePage.buttons.startSoloGame")}
+              </Button>
             </div>
           </div>
         </div>
