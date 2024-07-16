@@ -4,7 +4,7 @@
   border-radius: 2px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase;
 
   &.primary {
     background-color: var(--beige);

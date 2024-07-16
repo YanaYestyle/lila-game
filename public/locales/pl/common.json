@@ -2,6 +2,10 @@
     "homePage": {
         "game": "Gra",
         "lila": "Lila",
-        "description": "Gra, która daje odpowiedzi"
+        "description": "Gra, która daje odpowiedzi",
+        "buttons": {
+            "gameRules": "Zasady gry",
+            "startSoloGame": "Rozpocznij grę solo"
+        }
     }
 }

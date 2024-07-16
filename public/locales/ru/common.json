@@ -2,6 +2,10 @@
     "homePage": {
         "game": "Игра",
         "lila": "Лила",
-        "description": "Игра, которая дает ответы"
+        "description": "Игра, которая дает ответы",
+        "buttons": {
+            "gameRules": "Правила игры",
+            "startSoloGame": "Начать самостоятельную игру"
+        }
     }
 }

@@ -2,9 +2,16 @@
 import { useLanguage } from "@/providers/language-provider";
 import home from "./home.module.scss";
 import Button from "@/components/button/button";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const { t } = useLanguage();
+  const router = useRouter();
+  const { t, currentLanguage } = useLanguage();
+
+  const goToOnePlayerGame = () => {
+    router.push(`/${currentLanguage}/one-player-game`);
+  };
+
   return (
     <>
       <div className={home.container}>
@@ -23,8 +30,10 @@ export default function Home() {
           <div className={home.content}>
             <div>{t("homePage.description")}</div>
             <div className={home.buttons}>
-              <Button>Rule of the game</Button>
-              <Button>Start to play</Button>
+              <Button onClick={goToOnePlayerGame}>
+                {t("homePage.buttons.gameRules")}
+              </Button>
+              <Button onClick={goToOnePlayerGame}>{t("homePage.buttons.startSoloGame")}</Button>
             </div>
           </div>
         </div>
