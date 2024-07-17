@@ -18,10 +18,10 @@
   &.accent {
     background-color: var(--white);
     color: var(--primary);
-    border: 2px solid var(--primary);
+    border: 2px solid var(--beige);
 
     &:hover {
-      background-color: var(--beige);
+      background-color: var(--light-beige);
     }
   }
 }

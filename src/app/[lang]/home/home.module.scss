@@ -1,6 +1,7 @@
 $breakpoint-small: 480px;
 $breakpoint-medium: 768px;
 $breakpoint-large: 1024px;
+@import "@/styles/animations.scss";
 
 .container {
   display: grid;
@@ -19,7 +20,7 @@ $breakpoint-large: 1024px;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 5em);
   animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
 
   // Media queries for image responsiveness
@@ -132,11 +133,5 @@ $breakpoint-large: 1024px;
   }
   to {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-}
-
-@keyframes glow {
-  40% {
-    text-shadow: 0 0 10px var(--white);
   }
 }

@@ -7,5 +7,19 @@
             "gameRules": "Zasady gry",
             "startSoloGame": "Rozpocznij grę solo"
         }
+    },
+    "gameRulesPage": {
+        "title": "Zasady gry",
+        "boldGameName": "Lila",
+        "aboutGame": "to starożytna indyjska gra planszowa, która odzwierciedla podróż życia, a jej celem jest promowanie samoświadomości i rozwoju duchowego. Zawiera pojęcia takie jak reinkarnacja i karma, które prowadzą graczy przez cykle życia, służąc jako duchowa podróż. \nNie martw się! Staraliśmy się stworzyć grę nie związaną z ezoterycznym kontekstem, ale przygotować nowoczesną i trafną interpretację, która może stać się wygodnym narzędziem do introspekcji i znajdowania odpowiedzi na ważne pytania. \nPsychologowie w swojej praktyce często wykorzystują różne interpretacje tej gry, dlatego podczas tworzenia gry zwróciliśmy się do nich w celu konsultacji i testów.",
+        "attentionTitle": "Uwaga!",
+        "attentionText": "Gra nie zastąpi doświadczonego psychologa ani wersji gry online/offline z przewodnikiem, ale może być wskazówką w jakim kierunku podążać.",
+        "goNext": "Jak gra może być przydatna?"
+    },
+    "shared": {
+        "buttons": {
+            "goNext": "Idziemy dalej",
+            "goBack": "Wróć"
+        }
     }
 }

@@ -1,14 +1,80 @@
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 5em);
 
   .column {
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin: 0 2em;
+  }
+
+  .image {
+    background-image: url("/images/game-rules.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+
+  .title {
+    font-size: 2.5vw;
+    font-family: var(--font-family-bold);
+    color: var(--primary);
+    animation: slide-up 0.5s ease forwards;
+    opacity: 0;
+    margin-bottom: 1em;
+  }
+
+  .content {
+    font-family: var(--font-family);
+    color: var(--light-black);
+    font-size: 95%;
+    line-height: var(--line-height-medium);
+    animation: slide-down 0.5s ease forwards;
+    text-align: justify;
+    white-space: pre-line;
+  }
+
+  .attention {
+    color: var(--accent);
+    margin: 1.5em 0;
+  }
+
+  .next {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+    button {
+      div {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

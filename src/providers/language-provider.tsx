@@ -22,12 +22,8 @@ const defaultLanguageSchema: Language = {
   ],
   defaultLanguage: "en",
   currentLanguage: "",
-  setLanguage: function (language: string): void {
-    throw new Error("Function not implemented.");
-  },
-  t: function (key: string): string {
-    throw new Error("Function not implemented.");
-  },
+  setLanguage: () => {},
+  t: (key: string): string => key,
 };
 
 const LanguageContext = createContext<Language>(defaultLanguageSchema);
@@ -36,16 +32,20 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const pathname = usePathname();
   const [currentLanguage, setCurrentLanguage] = useState<string>(() => {
     if (typeof window !== "undefined") {
-      return localStorage.getItem("language") || defaultLanguageSchema.defaultLanguage;
+      return (
+        localStorage.getItem("language") ||
+        defaultLanguageSchema.defaultLanguage
+      );
     }
     const lang = pathname.split("/")[1];
-    return lang && defaultLanguageSchema.languages.map((lang) => lang.locale).includes(lang)
+    return lang &&
+      defaultLanguageSchema.languages.map((lang) => lang.locale).includes(lang)
       ? lang
       : defaultLanguageSchema.defaultLanguage;
   });
 
   useEffect(() => {
-    const lang = pathname.split("/")[1]; 
+    const lang = pathname.split("/")[1];
     if (
       lang &&
       defaultLanguageSchema.languages?.map((lang) => lang.locale).includes(lang)

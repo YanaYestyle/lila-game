@@ -7,5 +7,19 @@
       "gameRules": "Rules of the game",
       "startSoloGame": "Start a solo game"
     }
+  },
+  "gameRulesPage": {
+    "title": "Rules of the game",
+    "boldGameName": "Leela or Lila",
+    "aboutGame": "is an ancient Indian board game that reflects the journey of life, aiming to promote self-awareness and spiritual growth. It incorporates concepts like reincarnation and karma to guide players through life's cycles, serving as a spiritual journey. \nDon't worry! We tried to make a game that is not tied to an esoteric context, but to create a modern and relevant interpretation that can become a convenient tool for self-analysis and finding answers to important questions. \nVarious interpretations of this game are often used by psychologists in their practice, so during development we turned to them for advices and testing.",
+    "attentionTitle": "Attention!",
+    "attentionText": "The game will not replace an experienced psychologist or an online/offline version of the game with a guide, but it can be a hint in which direction to move.",
+    "goNext": "So how can the game be useful?"
+  },
+  "shared": {
+    "buttons": {
+      "goNext": "Go ahead",
+      "goBack": "Go back"
+    }
   }
 }
