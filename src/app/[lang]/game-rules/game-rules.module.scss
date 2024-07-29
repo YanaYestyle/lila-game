@@ -1,7 +1,14 @@
+@import "@/styles/variables.scss";
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
   height: calc(100vh - 5em);
+  gap: 1em;
+
+  @media (max-width: $breakpoint-medium), (max-width: $breakpoint-small) {
+    overflow: auto;
+  }
 
   .column {
     display: flex;
@@ -23,7 +30,7 @@
     font-size: 2.5vw;
     font-family: var(--font-family-bold);
     color: var(--primary);
-    animation: slide-up 0.5s ease forwards;
+    animation: slide-up 0.7s ease forwards;
     opacity: 0;
     margin-bottom: 1em;
   }
@@ -33,7 +40,7 @@
     color: var(--light-black);
     font-size: 95%;
     line-height: var(--line-height-medium);
-    animation: slide-down 0.5s ease forwards;
+    animation: slide-down 0.7s ease forwards;
     text-align: justify;
     white-space: pre-line;
   }
@@ -48,12 +55,6 @@
     align-items: center;
     width: 100%;
     justify-content: space-around;
-
-    button {
-      div {
-        display: inline-block;
-      }
-    }
   }
 }
 

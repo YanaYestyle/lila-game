@@ -1,0 +1,124 @@
+@import "@/styles/variables.scss";
+@import "@/styles/animations.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  height: calc(100vh - 5em);
+
+  @media (max-width: $breakpoint-medium), (max-width: $breakpoint-small) {
+    grid-template-columns: 1fr;
+    overflow: auto;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+  .column {
+    @include inner-outer-right(outer-right, -200%);
+    width: 100%;
+    z-index: 2;
+    animation: outer-right 1s 1s ease both;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 5em;
+
+    @media (max-width: $breakpoint-medium) {
+      height: 50vh;
+      animation: none;
+    }
+  }
+
+  .content {
+    animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+    margin: 1em;
+    color: var(--primary);
+    text-align: center;
+  }
+
+  .title {
+    @include inner-outer-right(inner-right, 100%);
+    display: inline-block;
+    animation: inner-right 1s 1s ease both;
+    font-family: var(--font-family-bold);
+    font-size: 4.5vw;
+    color: var(--light-black);
+    text-align: center;
+  }
+
+  .next {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5em;
+
+  @media (max-width: $breakpoint-medium) {
+    height: 30vh;
+    animation: none;
+    margin-top: 0;
+  }
+
+  .option {
+    border-radius: 60% 30% 30% 20%;
+    background: var(--accent);
+    display: grid;
+    place-items: center;
+    min-width: 50%;
+    max-height: 50%;
+
+    span {
+      width: 50%;
+      text-align: center;
+      font-size: 3vh;
+      margin: 0.5em;
+    }
+  }
+
+  .animate {
+    animation-duration: 0.75s;
+    animation-delay: 0.5s;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+  }
+
+  /* Glow In */
+  .animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+  }
+
+  @keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(2) saturate(2);
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1) saturate(1);
+      transform: scale(1, 1);
+    }
+  }
+
+  .delay-1 {
+    animation-delay: 0.5s;
+  }
+  .delay-2 {
+    animation-delay: 0.7s;
+  }
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+}

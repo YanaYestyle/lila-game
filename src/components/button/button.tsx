@@ -1,9 +1,5 @@
-import { ButtonHTMLAttributes } from "react";
 import button from "./button.module.scss";
-
-interface ButtonTheme extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "accent";
-}
+import { ButtonTheme } from "@/models/button-config";
 
 const Button: React.FC<ButtonTheme> = ({
   children,

@@ -1,7 +1,5 @@
-$breakpoint-small: 480px;
-$breakpoint-medium: 768px;
-$breakpoint-large: 1024px;
 @import "@/styles/animations.scss";
+@import "@/styles/variables.scss";
 
 .container {
   display: grid;
@@ -36,6 +34,7 @@ $breakpoint-large: 1024px;
 }
 
 .column {
+  @include inner-outer-right(outer-right, -200%);
   width: 100%;
   z-index: 2;
   animation: outer-right 1s 1s ease both;
@@ -68,6 +67,7 @@ $breakpoint-large: 1024px;
 }
 
 .title {
+  @include inner-outer-right(inner-right, 200%);
   display: inline-block;
   animation: inner-right 1s 1s ease both;
   font-family: var(--font-family-title);
@@ -77,6 +77,7 @@ $breakpoint-large: 1024px;
 
 .first,
 .second {
+  @include inner-outer-right(outer-right, -200%);
   animation: outer-right 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
 
@@ -87,44 +88,9 @@ $breakpoint-large: 1024px;
 }
 
 .lila {
+  @include inner-outer-right(inner-right, 200%);
   animation: inner-right 1s 1s ease both,
     text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes outer-right {
-  from {
-    transform: translateX(-200%);
-  }
-  to {
-    transform: none;
-  }
-}
-
-@keyframes inner-right {
-  from {
-    transform: translateX(200%);
-  }
-  to {
-    transform: none;
-  }
-}
-
-@keyframes image-in {
-  from {
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  to {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
 }
 
 @keyframes text-clip {

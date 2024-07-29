@@ -16,6 +16,13 @@
         "attentionText": "Gra nie zastąpi doświadczonego psychologa ani wersji gry online/offline z przewodnikiem, ale może być wskazówką w jakim kierunku podążać.",
         "goNext": "Jak gra może być przydatna?"
     },
+    "benefitsPage": {
+        "title": "Gra może pomóc...",
+        "firstOption": "Znaleźć odpowiedzi na swoje pytania",
+        "secondOption": "Zrozumieć siebie",
+        "thirdOption": "Zbudować plan działania do celu",
+        "goNext": "Przejdźmy do zasad gry"
+    },
     "shared": {
         "buttons": {
             "goNext": "Idziemy dalej",

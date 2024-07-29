@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  button {
+    div {
+      display: inline-block;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    &:not(:first-child) {
+      .text {
+        display: none;
+      }
+    }
+  }
+}

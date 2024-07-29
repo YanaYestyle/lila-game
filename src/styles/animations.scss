@@ -3,3 +3,33 @@
     text-shadow: 0 0 10px var(--white);
   }
 }
+
+@keyframes image-in {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@mixin inner-outer-right($name, $value) {
+  @keyframes #{$name} {
+    from {
+      transform: translateX($value);
+    }
+    to {
+      transform: none;
+    }
+  }
+}
+
+//TODO: To check remove or not
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

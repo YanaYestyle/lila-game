@@ -16,6 +16,13 @@
     "attentionText": "The game will not replace an experienced psychologist or an online/offline version of the game with a guide, but it can be a hint in which direction to move.",
     "goNext": "So how can the game be useful?"
   },
+  "benefitsPage": {
+    "title": "The game can help...",
+    "firstOption": "Find answers to your questions",
+    "secondOption": "Understand yourself",
+    "thirdOption": "Build an action plan to reach your goal",
+    "goNext": "Let's go to the rules of the game"
+  },
   "shared": {
     "buttons": {
       "goNext": "Go ahead",
