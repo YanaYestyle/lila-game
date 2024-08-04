@@ -23,6 +23,9 @@
         "thirdOption": "Zbudować plan działania do celu",
         "goNext": "Przejdźmy do zasad gry"
     },
+    "descriptionPage": {
+        "title": "Od czego zaczyna się gra?"
+    },
     "shared": {
         "buttons": {
             "goNext": "Idziemy dalej",

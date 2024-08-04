@@ -13,8 +13,8 @@ export default function Benefits() {
     router.push(`/${currentLanguage}/game-rules`);
   };
 
-  const goToOnePlayerGame = () => {
-    router.push(`/${currentLanguage}/one-player-game`);
+  const goToDescriptionGameRules = () => {
+    router.push(`/${currentLanguage}/game-rules/description`);
   };
 
   const config: NavigationConfig = {
@@ -28,7 +28,7 @@ export default function Benefits() {
         variant: "accent",
         text: t("shared.buttons.goNext"),
         icon: true,
-        navigateTo: goToOnePlayerGame,
+        navigateTo: goToDescriptionGameRules,
       },
     ],
     additionalText: t("benefitsPage.goNext"),

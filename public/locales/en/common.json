@@ -23,6 +23,9 @@
     "thirdOption": "Build an action plan to reach your goal",
     "goNext": "Let's go to the rules of the game"
   },
+  "descriptionPage": {
+    "title": "How does the game start?"
+  },
   "shared": {
     "buttons": {
       "goNext": "Go ahead",
