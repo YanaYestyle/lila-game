@@ -9,12 +9,12 @@ export default function Description() {
   const router = useRouter();
   const { t, currentLanguage } = useLanguage();
 
-  const goToHome = () => {
-    router.push(`/${currentLanguage}/home`);
-  };
-
   const goToBenefits = () => {
     router.push(`/${currentLanguage}/game-rules/benefits`);
+  };
+
+  const goToEntry = () => {
+    router.push(`/${currentLanguage}/game-rules/entry`);
   };
 
   const config: NavigationConfig = {
@@ -22,16 +22,16 @@ export default function Description() {
       {
         variant: "accent",
         text: t("shared.buttons.goBack"),
-        navigateTo: goToHome,
+        navigateTo: goToBenefits,
       },
       {
         variant: "accent",
         text: t("shared.buttons.goNext"),
         icon: true,
-        navigateTo: goToBenefits,
+        navigateTo: goToEntry,
       },
     ],
-    additionalText: t("gameRulesPage.goNext"),
+    additionalText: t("descriptionPage.goNext"),
   };
 
   return (
@@ -41,19 +41,7 @@ export default function Description() {
           {t("descriptionPage.title").toUpperCase()}
         </div>
         <div className={description.content}>
-          <div>Игра начинается с запроса. То есть зачем Вы начинаете играть, на какой вопрос Вам нужен ответ или какую проблему хотите решить. 
-            Примеры запросов: Что мне нужно сделать, чтобы встретить мужчину/женщину для гармоничных отношений?
-            Что мне нужно сделать, чтобы продвинуться по карьерной лестнице?
-
-            Также это могут быть вопросы на познания себя. Например, как стать уверенным/уверенной? Как простить обиду?
-
-            Или совсем бытовые - стоит ли мне сделать первым/первой шаг (к примерению, свиданию и т.д.)?
-
-            Важно, чтобы запрос был простым и понятным.
-            
-            Далее в игру вступает игральный кубик...
-            
-            </div>
+          <div>{t("descriptionPage.text")}</div>
           <div className={description.next}>
             <Navigation config={config}></Navigation>
           </div>

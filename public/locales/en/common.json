@@ -24,7 +24,14 @@
     "goNext": "Let's go to the rules of the game"
   },
   "descriptionPage": {
-    "title": "How does the game start?"
+    "title": "How does the game start?",
+    "text": "The game begins with an intention or a question — the reason you start playing, the question you want answered, or the problem you want to solve. Example questions: how to meet a man/woman for a harmonious relationship? how to advance in your career? These can also be questions about self-discovery. For example: how can I become more confident? how can I forgive resentment? Or even everyday questions: should I make the first move (towards reconciliation, a date, etc.)? It is important that the intention or question is simple and clear. Then the dice enters the game...",
+    "goNext": "How to enter the game?"
+  },
+  "entryPage": {
+    "title": "How does the game start?",
+    "text": "The game begins with an intention or a question — the reason you start playing, the question you want answered, or the problem you want to solve. Example questions: how to meet a man/woman for a harmonious relationship? how to advance in your career? These can also be questions about self-discovery. For example: how can I become more confident? how can I forgive resentment? Or even everyday questions: should I make the first move (towards reconciliation, a date, etc.)? It is important that the intention or question is simple and clear. Then the dice enters the game...",
+    "goNext": "How to enter the game?"
   },
   "shared": {
     "buttons": {

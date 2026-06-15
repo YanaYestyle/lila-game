@@ -1,4 +1,5 @@
 @import "@/styles/variables.scss";
+@import "@/styles/animations.scss";
 
 .container {
   display: grid;
@@ -24,6 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 30vh;
+    z-index: 1;
   }
 
   .title {
@@ -58,7 +60,7 @@
   }
 }
 
-@keyframes slide-up {
+/*@keyframes slide-up {
   0% {
     transform: translateY(50%);
     opacity: 0;
@@ -78,4 +80,4 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
+}*/

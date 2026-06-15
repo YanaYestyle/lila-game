@@ -29,6 +29,7 @@
     @media (max-width: $breakpoint-medium) {
       height: 30vh;
       animation: none;
+      overflow-x: hidden;
     }
   }
 
@@ -47,6 +48,10 @@
     font-size: 4.5vw;
     color: var(--light-black);
     text-align: center;
+
+    @media (max-width: $breakpoint-medium) {
+      @include inner-outer-right(inner-right, 200%);
+    }
   }
 
   .next {

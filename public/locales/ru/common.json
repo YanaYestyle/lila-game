@@ -24,7 +24,14 @@
         "goNext": "Идем к правилам игры"
     },
     "descriptionPage": {
-        "title": "С чего начинается игра?"
+        "title": "С чего начинается игра?",
+        "text": "Игра начинается с запроса — то есть с вопроса или темы, с которой вы входите в игру. Это может быть ситуация, на которую вы хотите получить ответ, или проблема, которую хотите решить. Примеры запросов: как встретить мужчину/женщину для гармоничных отношений? как продвинуться по карьерной лестнице? Также это могут быть вопросы на самопознание. Например: как стать уверенным/уверенной? как простить обиду? Или совсем бытовые вопросы: стоит ли сделать первый шаг к примирению, свиданию и т.д.? Важно, чтобы запрос был простым и понятным. Далее в игру вступает игральный кубик...",
+        "goNext": "Как войти в игру?"
+    },
+    "entryPage": {
+        "title": "How does the game start?",
+        "text": "The game begins with an intention or a question — the reason you start playing, the question you want answered, or the problem you want to solve. Example questions: how to meet a man/woman for a harmonious relationship? how to advance in your career? These can also be questions about self-discovery. For example: how can I become more confident? how can I forgive resentment? Or even everyday questions: should I make the first move (towards reconciliation, a date, etc.)? It is important that the intention or question is simple and clear. Then the dice enters the game...",
+        "goNext": "How to enter the game?"
     },
     "shared": {
         "buttons": {
