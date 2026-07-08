@@ -29,9 +29,226 @@
     "goNext": "How to enter the game?"
   },
   "entryPage": {
-    "title": "How does the game start?",
-    "text": "The game begins with an intention or a question — the reason you start playing, the question you want answered, or the problem you want to solve. Example questions: how to meet a man/woman for a harmonious relationship? how to advance in your career? These can also be questions about self-discovery. For example: how can I become more confident? how can I forgive resentment? Or even everyday questions: should I make the first move (towards reconciliation, a date, etc.)? It is important that the intention or question is simple and clear. Then the dice enters the game...",
-    "goNext": "How to enter the game?"
+    "title": "Entering the Game",
+    "sections": [
+      {
+        "title": "Purpose of This Mechanic",
+        "content": [
+          "Entering the game is the first stage of the process, where the player formulates an intention and tests its 'readiness' by rolling the dice.",
+          "To enter the game, the player must roll a 6."
+        ]
+      },
+      {
+        "title": "Entry Rule",
+        "list": [
+          "Rolling a 6 allows the player to enter the game.",
+          "Rolling any other number means the game has not yet begun for that player."
+        ],
+        "footer": "Not entering the game is neither a mistake nor a failure—it is simply information about your intention and your current stage of the process."
+      },
+      {
+        "title": "What if You Don't Roll a 6?",
+        "content": "If you don't enter the game, it does not mean you have failed. Instead, it is an invitation to reflect on your intention and consider expressing it differently. You can:",
+        "items": [
+          {
+            "title": "Make your question more specific.",
+            "content": "Questions that are too general are often difficult to translate into a clear intention.",
+            "subheading": "Example:",
+            "listContentDetails": [
+              "\"How can I find a job?\" → \"How can I find a job as a manager?\";",
+              "\"How can I improve my life?\" → \"How can I create a better work-life balance?\"."
+            ]
+          },
+          {
+            "title": "Change the perspective of your question.",
+            "content": "Instead of focusing on the problem, try focusing on the solution or on your own actions.",
+            "subheading": "Example:",
+            "listContentDetails": [
+              "\"Why can't I find a fulfilling relationship?\" → \"What can I do to build a healthy relationship?\";",
+              "\"Why am I always stressed?\" → \"How can I manage stress more effectively?\"."
+            ]
+          },
+          {
+            "title": "Rephrase your question.",
+            "content": "Closed questions often limit possible interpretations. Open-ended questions encourage deeper reflection.",
+            "subheading": "Example:",
+            "listContentDetails": [
+              "\"Will I get promoted?\" → \"What can I do to increase my chances of getting promoted?\";",
+              "\"Should I change jobs?\" → \"What steps will help me make the best career decision?\"."
+            ]
+          },
+          {
+            "title": "Change your intention.",
+            "content": "Sometimes it's helpful to step back from the original question and look at the situation from a broader perspective.",
+            "subheading": "Example:",
+            "listContentDetails": [
+              "\"How can I find a new job?\" → \"How can I increase my satisfaction with my professional life?\";",
+              "\"How can I earn more money?\" → \"How can I make better use of my skills and opportunities?\"."
+            ]
+          }
+        ],
+        "footer": "Every change is part of the process, not a failure."
+      },
+      {
+        "title": "Saving Your History",
+        "content": [
+          "Every intention and every attempt to enter the game is recorded.",
+          "This allows you to:"
+        ],
+        "list": [
+          "see which question you started with;",
+          "track how your intention evolved;",
+          "identify recurring patterns;",
+          "observe your personal reflection process."
+        ]
+      },
+      {
+        "title": "Symbolic Meaning",
+        "content": "Not entering the game may indicate that:",
+        "list": [
+          "your question is too broad;",
+          "your intention is not yet clear;",
+          "the topic is not yet ready for exploration;",
+          "a change of perspective is needed."
+        ],
+        "footer": "The game aligns the player with their current level of readiness."
+      },
+      {
+        "title": "How Long Can This Take?",
+        "content": [
+          "There is no fixed time limit for entering the game.",
+          "The process may take:"
+        ],
+        "list": [
+          "a few minutes (a clear intention);",
+          "several hours (refining the question);",
+          "or require returning another day."
+        ]
+      },
+      {
+        "title": "When to Take a Break",
+        "content": "If you're unable to enter the game for an extended period, it is recommended to:",
+        "list": [
+          "pause the process;",
+          "come back later;",
+          "change your mood or environment;",
+          "try again on another day."
+        ],
+        "footer": "Sometimes the best decision is to take a break."
+      },
+      {
+        "title": "Purpose of This Stage",
+        "content": "This stage helps develop:",
+        "list": [
+          "patience;",
+          "awareness of your intentions;",
+          "flexibility in thinking;",
+          "recognition of recurring patterns;",
+          "the ability to sense when you are ready."
+        ]
+      }
+    ],
+    "subheading": "Summary",
+    "list": [
+      "entry = roll a 6;",
+      "no 6 = continue working with your intention;",
+      "changing your question is part of the game;",
+      "every attempt is recorded;",
+      "the game responds to the quality of your intention;",
+      "the process is dynamic and personal."
+    ],
+    "goNext": "Game Board"
+  },
+  "gameBoardPage": {
+    "title": "Game Board",
+    "content": "The Lila game board consists of 72 squares. Each square has its own meaning and description. It does not provide ready-made answers, but helps you look at a situation from a different perspective and better understand your own thoughts, emotions, and decisions.",
+    "sections": [
+      {
+        "content": "It has a symbolically organized structure:",
+        "list": [
+          "8 levels (rows) – representing the material world and the process of experience;",
+          "9 columns – symbolizing completeness and the end of a cycle."
+        ],
+        "footer": "The board represents a journey from a state of limitation to a state of full awareness."
+      },
+      {
+        "content": [
+          "All players begin on square 68 – Cosmic Consciousness.",
+          "If a 6 is rolled → the player enters the game (passes through the Birth square and begins the journey). Each rolled 6 gives an additional roll. This means the player continues their movement."
+        ],
+        "items": [
+          {
+            "title": "Three sixes in a row",
+            "content": "If the player rolls three sixes in a row and then rolls a different number:",
+            "listContentDetails": [
+              "they return to the position where they started the sequence of sixes;",
+              "then they move only by the number rolled on the fourth throw."
+            ]
+          },
+          {
+            "title": "Three sixes when entering the game",
+            "content": "If this situation happens during the entry into the game:",
+            "listContentDetails": [
+              "the player returns to the Birth square (1);",
+              "and moves forward by the number rolled on the fourth throw."
+            ]
+          },
+          {
+            "title": "Four or more sixes in a row",
+            "content": "If the player rolls 4 or more sixes in a row:",
+            "listContentDetails": [
+              "they continue rolling until a number other than 6 appears;",
+              "they add up all rolled values;",
+              "they make one movement equal to this total;",
+              "then they pass the dice to the next player."
+            ]
+          }
+        ]
+      },
+      {
+        "content": "During the game, you may encounter two symbols:",
+        "list": [
+          "Arrows – represent growth, understanding, and inner progress. They move you to a higher level on the board.",
+          "Snakes – symbolize obstacles, limiting beliefs, or repeating behavioral patterns. They move you back to an earlier stage, encouraging you to look at the topic from a new perspective."
+        ],
+        "footer": "Every move is part of the process. There are no good or bad squares — each one offers a message that can help you better understand your own path."
+      }
+    ],
+    "goNext": "Game Goal"
+  },
+  "gameGoalsPage": {
+    "title": "Goal of the Game",
+    "content": "The goal of the game is to reach square 68 — Cosmic Consciousness — by landing on it exactly.",
+    "sections": [
+      {
+        "content": [
+          "During the game, players may notice that they repeatedly encounter the same arrows or snakes. This is not considered a coincidence — it may point to recurring patterns, behaviours, or themes that require attention.",
+          "For this reason, moving across the board is only one part of the process. Reading and reflecting on the meaning of each square is equally important.",
+          "Every square represents a particular state, experience, or aspect of inner development. Observing your path through the game can help reveal connections between external events and your inner world."
+        ]
+      },
+      {
+        "content": [
+          "The game ends only when the player lands exactly on square 68.",
+          "If a player moves beyond it and reaches squares 69, 70, or 71, they can no longer return directly to square 68 and must wait for a suitable roll:"
+        ],
+        "list": [
+          "from square 69 — a roll of 1, 2, or 3 is required;",
+          "from square 70 — a roll of 1 or 2 is required;",
+          "from square 71 — the player must roll exactly 1."
+        ],
+        "footer": "If a player is on square 67, rolling a 6 no longer grants an additional move. If the rolled number cannot be used to make a valid move, the player remains on the current square and waits for the next turn."
+      },
+      {
+        "content": "Lila is more than a game of chance. Its purpose is self-discovery and reflection — by observing their movements, decisions, and recurring patterns, players can gain a deeper understanding of themselves."
+      }
+    ],
+    "goNext": "Are you ready to enter the game?"
+  },
+  "notFound": {
+    "description": "It looks like this move does not exist.",
+    "message": "Every journey sometimes reaches a dead end. Return to the home page and continue your path.",
+    "home": "Home"
   },
   "shared": {
     "buttons": {

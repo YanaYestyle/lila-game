@@ -1,4 +1,4 @@
-import arrow from "./arrow-icon.module.scss"
+import arrow from "./ArrowIcon.module.scss"
 
 const ArrowIcon = () => (
   <div className={arrow.container}>

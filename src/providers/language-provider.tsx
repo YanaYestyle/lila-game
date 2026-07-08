@@ -12,13 +12,16 @@ const translations: Record<string, Record<string, string>> = {
   en: require("../../public/locales/en/common.json"),
   pl: require("../../public/locales/pl/common.json"),
   ru: require("../../public/locales/ru/common.json"),
+  uk: require("../../public/locales/uk/common.json"),
 };
 
+//TODO: to fix
 const defaultLanguageSchema: Language = {
   languages: [
     { locale: "en", description: "English" },
     { locale: "pl", description: "Polski" },
     { locale: "ru", description: "Русский" },
+    { locale: "uk", description: "Українська" },
   ],
   defaultLanguage: "en",
   currentLanguage: "",

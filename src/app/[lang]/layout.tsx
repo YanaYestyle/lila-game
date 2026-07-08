@@ -1,7 +1,7 @@
 "use client";
-import Footer from "@/components/footer/footer";
-import Header from "@/components/header/header";
-import LanguageSwitcher from "@/components/language-switcher/language-switcher";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import LanguageSwitcher from "@/components/language-switcher/LanguageSwitcher";
 import { LanguageProvider } from "@/providers/language-provider";
 
 export default function LangLayout({

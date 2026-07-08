@@ -16,16 +16,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 0 2em;
-  }
-
-  .image {
-    background-image: url("/images/game-rules.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 30vh;
-    z-index: 1;
+    margin: 5em 2em 0;
+    overflow-y: auto;
   }
 
   .title {
@@ -45,11 +37,21 @@
     animation: slide-down 0.7s ease forwards;
     text-align: justify;
     white-space: pre-line;
-  }
+    overflow-y: auto;
+    padding-right: 0.5em;
 
-  .attention {
-    color: var(--accent);
-    margin: 1.5em 0;
+    section {
+      margin: 1em 1em 1em 0;
+    }
+
+    ul {
+      list-style: disc outside;
+      padding-left: 24px;
+    }
+
+    li {
+      display: list-item;
+    }
   }
 
   .next {
@@ -57,5 +59,6 @@
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    margin-top: 1.5em;
   }
 }

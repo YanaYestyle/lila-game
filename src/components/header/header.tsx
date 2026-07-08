@@ -1,5 +1,5 @@
 import { useRouter } from "next/navigation";
-import header from "./header.module.scss";
+import header from "./Header.module.scss";
 import Image from "next/image";
 import { useLanguage } from "@/providers/language-provider";
 

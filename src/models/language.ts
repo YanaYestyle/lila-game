@@ -8,5 +8,5 @@ export interface Language {
   defaultLanguage: string;
   currentLanguage: string;
   setLanguage: (language: string) => void;
-  t: (key: string) => string;
+  t: <T = string>(key: string) => T;
 }

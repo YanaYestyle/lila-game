@@ -10,6 +10,7 @@
   @media (max-width: $breakpoint-medium), (max-width: $breakpoint-small) {
     grid-template-columns: 1fr;
     animation: fadeIn 0.5s ease-in-out forwards;
+    overflow: auto;
   }
 }
 
@@ -51,6 +52,10 @@
   color: var(--primary);
   text-align: center;
   font-size: 0.9rem;
+
+  @media (max-width: $breakpoint-medium), (max-width: $breakpoint-small) {
+    overflow-y: auto;
+  }
 }
 
 .buttons {
@@ -90,7 +95,8 @@
 
 .lila {
   @include inner-outer-right(inner-right, 200%);
-  animation: inner-right 1s 1s ease both,
+  animation:
+    inner-right 1s 1s ease both,
     text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
 

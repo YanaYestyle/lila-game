@@ -29,9 +29,226 @@
         "goNext": "Jak wejść do gry?"
     },
     "entryPage": {
-        "title": "How does the game start?",
-        "text": "The game begins with an intention or a question — the reason you start playing, the question you want answered, or the problem you want to solve. Example questions: how to meet a man/woman for a harmonious relationship? how to advance in your career? These can also be questions about self-discovery. For example: how can I become more confident? how can I forgive resentment? Or even everyday questions: should I make the first move (towards reconciliation, a date, etc.)? It is important that the intention or question is simple and clear. Then the dice enters the game...",
-        "goNext": "How to enter the game?"
+        "title": "Wejście do gry",
+        "sections": [
+            {
+                "title": "Cel mechaniki",
+                "content": [
+                    "Wejście do gry jest pierwszym etapem procesu, w którym gracz formułuje intencję i sprawdza jej „gotowość” poprzez rzut kostką.",
+                    "Aby wejść do gry, gracz musi wyrzucić 6."
+                ]
+            },
+            {
+                "title": "Zasada wejścia",
+                "list": [
+                    "Wyrzucenie 6 oznacza wejście gracza do gry.",
+                    "Wyrzucenie innej liczby oznacza, że gra dla tego gracza jeszcze się nie rozpoczyna."
+                ],
+                "footer": "Brak wejścia nie jest błędem ani porażką — stanowi jedynie informację o intencji i aktualnym stanie gry."
+            },
+            {
+                "title": "Co zrobić, jeśli nie wypadnie 6?",
+                "content": "Jeśli gracz nie wchodzi do gry, nie oznacza to błędu ani porażki. To sygnał, że warto przyjrzeć się swojej intencji i spróbować sformułować ją w inny sposób. Możesz:",
+                "items": [
+                    {
+                        "title": "Doprecyzować pytanie.",
+                        "content": "Zbyt ogólne pytania często trudno przełożyć na konkretną intencję.",
+                        "subheading": "Przykład:",
+                        "listContentDetails": [
+                            "„Jak znaleźć pracę?” → „Jak znaleźć pracę jako kierownik?”;",
+                            "„Jak poprawić swoje życie?” → „Jak mogę poprawić równowagę między pracą a życiem prywatnym?”."
+                        ]
+                    },
+                    {
+                        "title": "Zmienić perspektywę pytania.",
+                        "content": "Zamiast skupiać się na problemie, warto skupić się na rozwiązaniu lub własnym działaniu.",
+                        "subheading": "Przykład:",
+                        "listContentDetails": [
+                            "„Dlaczego nie mam satysfakcjonującego związku?” → „Co mogę zrobić, aby stworzyć zdrową relację?”;",
+                            "„Dlaczego ciągle się stresuję?” → „Jak mogę lepiej radzić sobie ze stresem?”."
+                        ]
+                    },
+                    {
+                        "title": "Zmienić formę pytania.",
+                        "content": "Pytania zamknięte często ograniczają możliwości interpretacji. Warto zamienić je na pytania otwarte.",
+                        "subheading": "Przykład:",
+                        "listContentDetails": [
+                            "„Czy dostanę awans?” → „Co mogę zrobić, aby zwiększyć swoje szanse na awans?”;",
+                            "„Czy powinienem zmienić pracę?” → „Jakie działania pomogą mi podjąć najlepszą decyzję zawodową?”."
+                        ]
+                    },
+                    {
+                        "title": "Zmienić intencję.",
+                        "content": "Czasami warto odejść od pierwotnego pytania i spojrzeć na temat z szerszej perspektywy.",
+                        "subheading": "Przykład:",
+                        "listContentDetails": [
+                            "„Jak znaleźć nową pracę?” → „Jak zwiększyć satysfakcję z mojego życia zawodowego?”;",
+                            "„Jak zdobyć więcej pieniędzy?” → „Jak mogę lepiej wykorzystać swoje umiejętności i możliwości?”."
+                        ]
+                    }
+                ],
+                "footer": "Każda zmiana jest częścią procesu, nie porażką."
+            },
+            {
+                "title": "Zapisywanie historii",
+                "content": [
+                    "Każda intencja i każda próba wejścia są zapisywane.",
+                    "Dzięki temu można:"
+                ],
+                "list": [
+                    "zobaczyć, z jakim pytaniem gracz próbował wejść;",
+                    "przeanalizować, jak zmieniała się intencja;",
+                    "zauważyć powtarzające się wzorce;",
+                    "obserwować proces wewnętrzny."
+                ]
+            },
+            {
+                "title": "Znaczenie symboliczne",
+                "content": "Brak wejścia do gry może oznaczać:",
+                "list": [
+                    "pytanie jest zbyt ogólne;",
+                    "intencja nie jest jeszcze klarowna;",
+                    "temat nie jest gotowy do pracy;",
+                    "potrzebna jest zmiana perspektywy."
+                ],
+                "footer": "Gra dopasowuje gracza do jego gotowości."
+            },
+            {
+                "title": "Czas procesu",
+                "content": [
+                    "Wejście do gry nie ma określonego czasu.",
+                    "Może trwać:"
+                ],
+                "list": [
+                    "kilka minut (szybka klarowna intencja);",
+                    "kilka godzin (proces doprecyzowania pytania);",
+                    "wymagać powrotu w innym momencie."
+                ]
+            },
+            {
+                "title": "Kiedy zrobić przerwę",
+                "content": "Jeśli wejście do gry nie udaje się przez dłuższy czas, zaleca się:",
+                "list": [
+                    "przerwać proces;",
+                    "wrócić później;",
+                    "zmienić nastrój lub kontekst;",
+                    "spróbować innego dnia."
+                ],
+                "footer": "Czasem najlepszą decyzją jest pauza."
+            },
+            {
+                "title": "Sens mechaniki",
+                "content": "Ten etap uczy:",
+                "list": [
+                    "cierpliwości;",
+                    "uważności na własne intencje;",
+                    "elastyczności myślenia;",
+                    "obserwacji własnych wzorców;",
+                    "rozpoznawania momentu gotowości."
+                ]
+            }
+        ],
+        "subheading": "Podsumowanie",
+        "list": [
+            "wejście = 6 na kostce;",
+            "brak 6 = praca z intencją;",
+            "zmiana pytania jest częścią gry;",
+            "wszystkie próby są zapisywane;",
+            "gra reaguje na jakość intencji;",
+            "proces jest dynamiczny i indywidualny."
+        ],
+        "goNext": "Plansza do gry"
+    },
+    "gameBoardPage": {
+        "title": "Plansza gry",
+        "content": "Plansza Lili składa się z 72 pól. Każde pole na planszy posiada własne znaczenie i opis. Nie wskazuje gotowych odpowiedzi, ale pomaga spojrzeć na sytuację z innej perspektywy oraz lepiej zrozumieć własne myśli, emocje i decyzje.",
+        "sections": [
+            {
+                "content": "Ma strukturę symbolicznie uporządkowaną:",
+                "list": [
+                    "8 poziomów (rzędów) – reprezentujących świat materialny i proces doświadczenia;",
+                    "9 kolumn – symbolizujących pełnię i zakończenie cyklu."
+                ],
+                "footer": "Plansza przedstawia drogę od stanu ograniczenia do stanu pełnej świadomości."
+            },
+            {
+                "content": [
+                    "Wszyscy gracze zaczynają na polu 68 – Kosmiczna Świadomość.",
+                    "Jeśli wypadnie 6 → gracz wchodzi do gry (przechodzi przez pole „Narodziny” i zaczyna ruch). Każda wyrzucona 6 daje dodatkowy rzut. Oznacza to, że gracz kontynuuje ruch."
+                ],
+                "items": [
+                    {
+                        "title": "Trzy szóstki z rzędu",
+                        "content": "Jeśli gracz wyrzuci trzy szóstki z rzędu, a następnie inny wynik:",
+                        "listContentDetails": [
+                            "wraca do miejsca, z którego rozpoczął serię szóstek;",
+                            "a następnie porusza się tylko o liczbę z czwartego rzutu."
+                        ]
+                    },
+                    {
+                        "title": "Trzy szóstki na wejściu do gry",
+                        "content": "Jeśli taki układ wydarzy się podczas wejścia do gry:",
+                        "listContentDetails": [
+                            "gracz wraca na pole Narodziny (1);",
+                            "i przesuwa się o liczbę oczek z czwartego rzutu."
+                        ]
+                    },
+                    {
+                        "title": "Cztery lub więcej szóstek z rzędu",
+                        "content": "Jeśli gracz wyrzuci 4 lub więcej szóstek z rzędu:",
+                        "listContentDetails": [
+                            "kontynuuje rzuty aż do momentu, gdy wypadnie liczba inna niż 6;",
+                            "sumuje wszystkie wyrzucone wartości;",
+                            "wykonuje jeden ruch równy tej sumie;",
+                            "następnie przekazuje kostkę."
+                        ]
+                    }
+                ]
+            },
+            {
+                "content": "Podczas gry możesz napotkać dwa symbole:",
+                "list": [
+                    "Strzały – oznaczają rozwój, zrozumienie i wewnętrzny postęp. Przenoszą Cię na wyższy poziom planszy.",
+                    "Węże – symbolizują przeszkody, ograniczające przekonania lub powtarzające się schematy zachowań. Cofają Cię do wcześniejszego etapu, zachęcając do ponownego spojrzenia na dany temat."
+                ],
+                "footer": "Każdy ruch jest częścią procesu. Nie ma dobrych ani złych pól — każde z nich wnosi wskazówkę, która może pomóc lepiej zrozumieć własną drogę."
+            }
+        ],
+        "goNext": "Cel gry"
+    },
+    "gameGoalsPage": {
+        "title": "Cel gry",
+        "content": "Celem gry jest dotarcie dokładnie na pole 68 – Kosmiczna Świadomość.",
+        "sections": [
+            {
+                "content": [
+                    "W trakcie gry gracz może zauważyć, że wielokrotnie trafia na te same strzały lub węże. Nie jest to przypadek — może wskazywać na powtarzające się wzorce, zachowania lub tematy, które wymagają uwagi.",
+                    "Dlatego ważne jest nie tylko samo poruszanie się po planszy, ale także czytanie i rozumienie opisów każdego pola.",
+                    "Każde pole reprezentuje określony stan, doświadczenie lub aspekt wewnętrznego rozwoju. Obserwowanie swojej drogi pomaga dostrzegać związki między wydarzeniami zewnętrznymi a własnym światem wewnętrznym."
+                ]
+            },
+            {
+                "content": [
+                    "Gra kończy się tylko wtedy, gdy gracz dokładnie trafi na pole 68.",
+                    "Jeżeli gracz przejdzie dalej i znajdzie się na polach 69, 70 lub 71, nie może już bezpośrednio wrócić na pole 68. Musi poczekać na odpowiedni rzut:"
+                ],
+                "list": [
+                    "z pola 69 — potrzebuje wyrzucić 1, 2 lub 3;",
+                    "z pola 70 — potrzebuje wyrzucić 1 lub 2;",
+                    "z pola 71 — potrzebuje wyrzucić dokładnie 1."
+                ],
+                "footer": "Jeżeli gracz znajdzie się na polu 67, wyrzucenie 6 nie daje już dodatkowego ruchu — musi wykonać zwykły ruch zgodnie z zasadami. Jeśli wyrzucona liczba nie pozwala wykonać poprawnego ruchu, gracz pozostaje na swoim polu i czeka na następną kolejkę."
+            },
+            {
+                "content": "Lila nie jest tylko grą losową. Jej celem jest samopoznanie i refleksja — poprzez obserwowanie własnych ruchów, decyzji i powtarzających się schematów gracz może lepiej zrozumieć siebie."
+            }
+        ],
+        "goNext": "Czy jesteś gotowy wejść do gry?"
+    },
+    "notFound": {
+        "description": "Wygląda na to, że ten ruch nie istnieje.",
+        "message": "Każda podróż ma czasem ślepy zaułek. Wróć na stronę główną i kontynuuj swoją drogę.",
+        "home": "Strona główna"
     },
     "shared": {
         "buttons": {

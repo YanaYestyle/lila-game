@@ -1,6 +1,6 @@
-import Button from "@/components/button/button";
-import ArrowIcon from "@/components/arrow-icon/arrow-icon";
-import nav from "./navigation.module.scss";
+import Button from "@/components/button/Button";
+import ArrowIcon from "@/components/arrow-icon/ArrowIcon";
+import nav from "./Navigation.module.scss";
 import { NavigationConfig } from "@/models/navigation";
 
 export default function Navigation({

@@ -2,7 +2,7 @@
 import "./benefits.scss";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/providers/language-provider";
-import Navigation from "@/components/navigation/navigation";
+import Navigation from "@/components/navigation/Navigation";
 import { NavigationConfig } from "@/models/navigation";
 
 export default function Benefits() {

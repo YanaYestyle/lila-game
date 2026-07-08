@@ -1,6 +1,6 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useLanguage } from "@/providers/language-provider";
-import switcher from "./language-switcher.module.scss";
+import switcher from "./LanguageSwitcher.module.scss";
 
 const LanguageSwitcher = () => {
   const { setLanguage, currentLanguage, languages } = useLanguage();

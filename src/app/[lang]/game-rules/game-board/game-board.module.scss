@@ -17,14 +17,15 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 2em;
+    overflow-y: auto;
   }
 
   .image {
-    background-image: url("/images/game-rules.png");
+    background-image: url("/images/game-board.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 40vh;
     z-index: 1;
   }
 
@@ -45,11 +46,28 @@
     animation: slide-down 0.7s ease forwards;
     text-align: justify;
     white-space: pre-line;
-  }
+    overflow-y: auto;
+    padding-right: 0.5em;
 
-  .attention {
-    color: var(--accent);
-    margin: 1.5em 0;
+    section {
+      margin: 1em 1em 1em 0;
+
+      h4 {
+        margin: 0.5em;
+        font-family: var(--font-family-bold);
+        color: var(--primary);
+        text-align: center;
+      }
+    }
+
+    ul {
+      list-style: disc outside;
+      padding-left: 24px;
+    }
+
+    li {
+      display: list-item;
+    }
   }
 
   .next {

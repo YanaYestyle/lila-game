@@ -1,4 +1,4 @@
-import button from "./button.module.scss";
+import button from "./Button.module.scss";
 import { ButtonTheme } from "@/models/button-config";
 
 const Button: React.FC<ButtonTheme> = ({

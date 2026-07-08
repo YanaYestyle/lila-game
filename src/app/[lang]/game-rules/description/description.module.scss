@@ -16,7 +16,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 0 2em;
+    margin: 5em 2em 0;
+    overflow-y: auto;
   }
 
   .title {
@@ -36,6 +37,8 @@
     animation: slide-down 0.7s ease forwards;
     text-align: justify;
     white-space: pre-line;
+    overflow-y: auto;
+    padding-right: 0.5em;
   }
 
   .next {
@@ -46,25 +49,3 @@
     margin-top: 1.5em;
   }
 }
-
-/*@keyframes slide-up {
-  0% {
-    transform: translateY(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-down {
-  0% {
-    transform: translateY(-50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}*/

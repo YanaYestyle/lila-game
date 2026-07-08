@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes } from "react";
 
 export interface ButtonTheme extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "accent";
+  variant?: "primary" | "accent" | "glow";
 }
 
 export interface ButtonConfig extends ButtonTheme {

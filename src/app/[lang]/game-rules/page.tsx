@@ -2,7 +2,7 @@
 import { useLanguage } from "@/providers/language-provider";
 import gameRules from "./game-rules.module.scss";
 import { useRouter } from "next/navigation";
-import Navigation from "@/components/navigation/navigation";
+import Navigation from "@/components/navigation/Navigation";
 import { NavigationConfig } from "@/models/navigation";
 
 export default function GameRules() {

@@ -1,3 +1,5 @@
+@import "@/styles/animations.scss";
+
 .button {
   padding: 1.75vh 2.25vh;
   border: none;
@@ -19,6 +21,16 @@
     background-color: var(--white);
     color: var(--primary);
     border: 2px solid var(--beige);
+
+    &:hover {
+      background-color: var(--light-beige);
+    }
+  }
+
+  &.glow {
+    background-color: var(--beige);
+    color: var(--white);
+    animation: glow 2500ms linear infinite 2000ms;
 
     &:hover {
       background-color: var(--light-beige);

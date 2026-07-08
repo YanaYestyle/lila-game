@@ -1,7 +1,7 @@
 "use client";
 import { useLanguage } from "@/providers/language-provider";
 import home from "./home.module.scss";
-import Button from "@/components/button/button";
+import Button from "@/components/button/Button";
 import { useRouter } from "next/navigation";
 
 export default function Home() {

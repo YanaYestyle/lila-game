@@ -1,21 +1,21 @@
 "use client";
 import { useLanguage } from "@/providers/language-provider";
-import entry from "./entry.module.scss";
+import gameBoard from "./game-board.module.scss";
 import { useRouter } from "next/navigation";
-import { NavigationConfig } from "@/models/navigation";
 import Navigation from "@/components/navigation/Navigation";
+import { NavigationConfig } from "@/models/navigation";
 import { Section } from "@/models/translation-config";
 
-export default function Entry() {
+export default function GameBoard() {
   const router = useRouter();
   const { t, currentLanguage } = useLanguage();
 
-  const goToDescription = () => {
-    router.push(`/${currentLanguage}/game-rules/description`);
+  const goToEntry = () => {
+    router.push(`/${currentLanguage}/game-rules/entry`);
   };
 
-  const goToGameBoardDescription = () => {
-    router.push(`/${currentLanguage}/game-rules/game-board`);
+  const goToGameGoals = () => {
+    router.push(`/${currentLanguage}/game-rules/game-goals`);
   };
 
   const config: NavigationConfig = {
@@ -23,36 +23,31 @@ export default function Entry() {
       {
         variant: "accent",
         text: t("shared.buttons.goBack"),
-        navigateTo: goToDescription,
+        navigateTo: goToEntry,
       },
       {
         variant: "accent",
         text: t("shared.buttons.goNext"),
         icon: true,
-        navigateTo: goToGameBoardDescription,
+        navigateTo: goToGameGoals,
       },
     ],
-    additionalText: t("entryPage.goNext"),
+    additionalText: t("gameBoardPage.goNext"),
   };
 
-  const sections = t<Section[]>("entryPage.sections");
-  const list = t<string[]>("entryPage.list");
+  const sections = t<Section[]>("gameBoardPage.sections");
 
   return (
-    <div className={entry.container}>
-      <div className={entry.image}>
-        <video src="/video/dice.mp4" autoPlay loop muted />
-      </div>
-
-      <div className={entry.column}>
-        <div className={entry.title}>{t("entryPage.title").toUpperCase()}</div>
-        <div className={entry.content}>
+    <div className={gameBoard.container}>
+      <div className={gameBoard.image}></div>
+      <div className={gameBoard.column}>
+        <div className={gameBoard.title}>
+          {t("gameBoardPage.title").toUpperCase()}
+        </div>
+        <div className={gameBoard.content}>
+          <span> {t("gameBoardPage.content")}</span>
           {sections.map((section, index) => (
-            <section key={index} className={entry.section}>
-              <h3>
-                {index + 1}. {section.title}
-              </h3>
-
+            <section key={index} className={gameBoard.section}>
               {section.content &&
                 (Array.isArray(section.content) ? (
                   section.content.map((paragraph, i) => (
@@ -72,13 +67,9 @@ export default function Entry() {
 
               {section.items?.map((item, itemIndex) => (
                 <div key={itemIndex}>
-                  <h4>
-                    {itemIndex + 1}. {item.title}
-                  </h4>
+                  <h4>{item.title}</h4>
 
                   {item.content && <p>{item.content}</p>}
-
-                  {item.subheading && <h5>{item.subheading}</h5>}
 
                   {item.listContentDetails && (
                     <ul>
@@ -92,15 +83,7 @@ export default function Entry() {
               {section.footer && <p>{section.footer}</p>}
             </section>
           ))}
-          <div className={entry.summary}>
-            {t("entryPage.subheading").toUpperCase()}
-          </div>
-          <ul>
-            {list?.map((item, i) => (
-              <li key={i}>{item} </li>
-            ))}
-          </ul>
-          <div className={entry.next}>
+          <div className={gameBoard.next}>
             <Navigation config={config}></Navigation>
           </div>
         </div>
