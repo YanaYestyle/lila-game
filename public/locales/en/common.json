@@ -245,6 +245,60 @@
     ],
     "goNext": "Are you ready to enter the game?"
   },
+  "termsPage": {
+    "title": "Terms of Service",
+    "content": "Welcome to Lila. By using our application, you agree to these Terms of Service.",
+    "sections": [
+      {
+        "title": "Nature of Lila",
+        "content": [
+          "Lila is a reflective digital game designed to support self-reflection, personal growth, and exploring personal experiences.",
+          "Lila is not a medical service, psychological service, therapy, or diagnostic tool."
+        ]
+      },
+      {
+        "title": "AI Features",
+        "content": [
+          "Lila uses artificial intelligence to generate reflective responses and support the user experience.",
+          "AI-generated responses may contain inaccuracies and should not be considered professional advice."
+        ]
+      },
+      {
+        "title": "User Account",
+        "content": [
+          "Some features require creating an account.",
+          "You are responsible for keeping your account information secure."
+        ]
+      },
+      {
+        "title": "User Content",
+        "content": [
+          "You may provide reflections, answers, and personal thoughts while using Lila.",
+          "You decide what information you want to save in the application."
+        ]
+      },
+      {
+        "title": "Subscriptions and Payments",
+        "content": [
+          "Some features may require a paid subscription.",
+          "Payments are processed through external payment providers."
+        ]
+      },
+      {
+        "title": "Account Deletion",
+        "content": [
+          "You may request deletion of your account and associated data."
+        ]
+      },
+      {
+        "title": "Contact",
+        "content": [
+          "For questions regarding these Terms of Service, contact us at:"
+        ],
+        "footer": "yanayestyle@gmail.com"
+      }
+    ]
+  },
   "notFound": {
     "description": "It looks like this move does not exist.",
     "message": "Every journey sometimes reaches a dead end. Return to the home page and continue your path.",

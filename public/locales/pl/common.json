@@ -245,6 +245,60 @@
         ],
         "goNext": "Czy jesteś gotowy wejść do gry?"
     },
+    "termsPage": {
+        "title": "Regulamin",
+        "content": "Witamy w Lila. Korzystając z naszej aplikacji, akceptujesz niniejszy Regulamin.",
+        "sections": [
+            {
+                "title": "Charakter Lila",
+                "content": [
+                    "Lila jest cyfrową grą refleksyjną stworzoną, aby wspierać samopoznanie, rozwój osobisty oraz odkrywanie własnych doświadczeń.",
+                    "Lila nie jest usługą medyczną, psychologiczną, terapeutyczną ani narzędziem diagnostycznym."
+                ]
+            },
+            {
+                "title": "Funkcje AI",
+                "content": [
+                    "Lila wykorzystuje sztuczną inteligencję do generowania refleksyjnych odpowiedzi i wspierania doświadczenia użytkownika.",
+                    "Odpowiedzi generowane przez AI mogą zawierać niedokładności i nie powinny być traktowane jako profesjonalna porada."
+                ]
+            },
+            {
+                "title": "Konto użytkownika",
+                "content": [
+                    "Niektóre funkcje wymagają utworzenia konta użytkownika.",
+                    "Użytkownik jest odpowiedzialny za zachowanie bezpieczeństwa swoich danych logowania oraz konta."
+                ]
+            },
+            {
+                "title": "Treści użytkownika",
+                "content": [
+                    "Podczas korzystania z Lila możesz wprowadzać refleksje, odpowiedzi oraz osobiste przemyślenia.",
+                    "To Ty decydujesz, jakie informacje chcesz zapisać w aplikacji."
+                ]
+            },
+            {
+                "title": "Subskrypcje i płatności",
+                "content": [
+                    "Niektóre funkcje mogą wymagać wykupienia płatnej subskrypcji.",
+                    "Płatności są obsługiwane przez zewnętrznych operatorów płatności."
+                ]
+            },
+            {
+                "title": "Usunięcie konta",
+                "content": [
+                    "Możesz poprosić o usunięcie swojego konta oraz powiązanych z nim danych."
+                ]
+            },
+            {
+                "title": "Kontakt",
+                "content": [
+                    "W przypadku pytań dotyczących niniejszego Regulaminu skontaktuj się z nami:"
+                ],
+                "footer": "yanayestyle@gmail.com"
+            }
+        ]
+    },
     "notFound": {
         "description": "Wygląda na to, że ten ruch nie istnieje.",
         "message": "Każda podróż ma czasem ślepy zaułek. Wróć na stronę główną i kontynuuj swoją drogę.",

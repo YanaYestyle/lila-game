@@ -1,7 +1,11 @@
-import arrow from "./ArrowIcon.module.scss"
+import arrow from "./ArrowIcon.module.scss";
 
-const ArrowIcon = () => (
-  <div className={arrow.container}>
+type ArrowIconProps = {
+  direction?: "left" | "right";
+};
+
+const ArrowIcon = ({ direction = "right" }: ArrowIconProps) => (
+  <div className={`${arrow.container} ${arrow[direction]}`}>
     <svg
       width="10px"
       height="10px"
