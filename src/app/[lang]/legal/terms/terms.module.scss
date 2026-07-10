@@ -50,6 +50,7 @@
     white-space: pre-line;
     overflow-y: auto;
     padding-right: 0.5em;
+    margin: 0 5em;
 
     section {
       margin: 1em 1em 1em 0;
@@ -61,13 +62,8 @@
       }
     }
 
-    ul {
-      list-style: disc outside;
-      padding-left: 24px;
-    }
-
-    li {
-      display: list-item;
+    a {
+      color: var(--primary);
     }
   }
 }

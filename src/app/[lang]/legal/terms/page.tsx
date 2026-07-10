@@ -9,13 +9,16 @@ export default function TermsPage() {
   const { t } = useLanguage();
   const router = useRouter();
 
+  //TODO: Fix language with back button
   const goBack = () => {
     router.back();
   };
 
   const sections = t<Section[]>("termsPage.sections");
+  const content = t<string[]>("privacyPage.content");
 
   //TODO: Fix text
+  //TODO: To think about date format
   return (
     <div className={terms.container}>
       <div className={terms.column}>
@@ -28,7 +31,9 @@ export default function TermsPage() {
         </div>
 
         <div className={terms.content}>
-          <span>{t("termsPage.content")}</span>
+          {content?.map((item, i) => (
+            <div key={i}>{item} </div>
+          ))}
 
           {sections.map((section, index) => (
             <section key={index} className={terms.section}>
@@ -47,15 +52,11 @@ export default function TermsPage() {
                   <p>{section.content}</p>
                 ))}
 
-              {section.list && (
-                <ul>
-                  {section.list.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
+              {section.footer && (
+                <a href={`mailto:${section.footer}`} className={terms.email}>
+                  {section.footer}
+                </a>
               )}
-
-              {section.footer && <p>{section.footer}</p>}
             </section>
           ))}
         </div>

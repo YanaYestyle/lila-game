@@ -247,55 +247,115 @@
   },
   "termsPage": {
     "title": "Terms of Service",
-    "content": "Welcome to Lila. By using our application, you agree to these Terms of Service.",
+    "content": [
+      "Last updated: 10.07.2016",
+      "Welcome to Lila. Lila is a reflective digital game designed to support self-reflection, personal growth, and exploring personal experiences through questions, prompts, and AI-generated insights. By using Lila, you agree to these Terms of Service."
+    ],
     "sections": [
       {
-        "title": "Nature of Lila",
-        "content": [
-          "Lila is a reflective digital game designed to support self-reflection, personal growth, and exploring personal experiences.",
-          "Lila is not a medical service, psychological service, therapy, or diagnostic tool."
-        ]
-      },
-      {
-        "title": "AI Features",
-        "content": [
-          "Lila uses artificial intelligence to generate reflective responses and support the user experience.",
-          "AI-generated responses may contain inaccuracies and should not be considered professional advice."
-        ]
+        "title": "Nature of the Service",
+        "content": "Lila is an educational and reflective experience. Lila is not a medical service, psychological service, therapy, diagnosis tool, or professional advice. The reflections, questions, and AI-generated responses provided by Lila are intended for personal reflection only and should not be considered medical, psychological, legal, or professional advice."
       },
       {
         "title": "User Account",
-        "content": [
-          "Some features require creating an account.",
-          "You are responsible for keeping your account information secure."
-        ]
+        "content": "To access certain features, you may need to create an account. You are responsible for maintaining the security of your account information and for activities performed through your account."
+      },
+      {
+        "title": "AI Features",
+        "content": "Lila uses artificial intelligence to generate reflective responses and provide personalized experiences. AI-generated responses may contain inaccuracies and should be treated as inspiration for reflection rather than factual or professional guidance."
       },
       {
         "title": "User Content",
-        "content": [
-          "You may provide reflections, answers, and personal thoughts while using Lila.",
-          "You decide what information you want to save in the application."
-        ]
+        "content": "You may provide personal reflections, answers, and other content while using Lila. You remain responsible for the content you submit. Please avoid sharing information about other people that you do not have permission to provide."
       },
       {
         "title": "Subscriptions and Payments",
-        "content": [
-          "Some features may require a paid subscription.",
-          "Payments are processed through external payment providers."
-        ]
+        "content": "Some Lila features may require a paid subscription. Pricing, subscription terms, and payment details are presented before purchase. Payments are processed by third-party payment providers."
       },
       {
         "title": "Account Deletion",
-        "content": [
-          "You may request deletion of your account and associated data."
-        ]
+        "content": "You may request deletion of your account and associated data."
+      },
+      {
+        "title": "Changes to the Service",
+        "content": "We may update or modify Lila to improve the experience, security, and functionality of the service."
       },
       {
         "title": "Contact",
-        "content": [
-          "For questions regarding these Terms of Service, contact us at:"
-        ],
+        "content": "If you have questions about these Terms, contact us at:",
         "footer": "yanayestyle@gmail.com"
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "content": [
+      "Last updated: 10.07.2026",
+      "Your privacy matters to us. This Privacy Policy explains how Lila collects and uses information when you use our application."
+    ],
+    "sections": [
+      {
+        "title": "Data Controller",
+        "content": "The data controller is:",
+        "footer": "[COMPANY NAME]\n[ADDRESS]\n\nContact:\nyanayestyle@gmail.com"
+      },
+      {
+        "title": "Information We Collect",
+        "content": "To provide Lila services, we may process:",
+        "list": [
+          "email address used for account creation;",
+          "account information;",
+          "game progress and history;",
+          "reflections and answers you choose to save;",
+          "subscription and payment-related information;",
+          "technical information required for the operation and security of the service."
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "content": "We use your information to:",
+        "list": [
+          "create and manage your account;",
+          "save your game progress;",
+          "provide Lila features;",
+          "generate AI-powered reflections and responses;",
+          "process subscriptions and payments;",
+          "maintain security and improve reliability."
+        ]
+      },
+      {
+        "title": "AI Processing",
+        "content": "Some Lila features use artificial intelligence. Information you provide may be processed by AI service providers to generate responses and provide requested features. AI is not used to diagnose, evaluate, or determine your mental health condition."
+      },
+      {
+        "title": "Payments",
+        "content": "Payments are processed by external payment providers. Lila does not store your full payment card details."
+      },
+      {
+        "title": "Data Retention",
+        "content": "We keep your information while your account is active or as needed to provide the service. You may request deletion of your account and associated data."
+      },
+      {
+        "title": "Your Rights",
+        "content": "Depending on your location, you may have rights to:",
+        "list": [
+          "access your personal data;",
+          "request correction of your data;",
+          "request deletion of your data;",
+          "request a copy of your data;",
+          "withdraw consent where applicable."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "content": "Lila uses only essential cookies and similar technologies required for:",
+        "list": [
+          "authentication;",
+          "account security;",
+          "maintaining user sessions;",
+          "basic functionality."
+        ],
+        "footer": "We do not use advertising cookies or tracking cookies."
       }
     ]
   },

@@ -247,55 +247,115 @@
     },
     "termsPage": {
         "title": "Regulamin",
-        "content": "Witamy w Lila. Korzystając z naszej aplikacji, akceptujesz niniejszy Regulamin.",
+        "content": [
+            "Ostatnia aktualizacja: 10.07.2026",
+            "Witamy w Lila. Lila jest cyfrową grą refleksyjną stworzoną, aby wspierać samopoznanie, rozwój osobisty oraz odkrywanie własnych doświadczeń poprzez pytania, wskazówki i refleksje generowane przez AI. Korzystając z Lila, akceptujesz niniejszy Regulamin."
+        ],
         "sections": [
             {
-                "title": "Charakter Lila",
-                "content": [
-                    "Lila jest cyfrową grą refleksyjną stworzoną, aby wspierać samopoznanie, rozwój osobisty oraz odkrywanie własnych doświadczeń.",
-                    "Lila nie jest usługą medyczną, psychologiczną, terapeutyczną ani narzędziem diagnostycznym."
-                ]
-            },
-            {
-                "title": "Funkcje AI",
-                "content": [
-                    "Lila wykorzystuje sztuczną inteligencję do generowania refleksyjnych odpowiedzi i wspierania doświadczenia użytkownika.",
-                    "Odpowiedzi generowane przez AI mogą zawierać niedokładności i nie powinny być traktowane jako profesjonalna porada."
-                ]
+                "title": "Charakter usługi",
+                "content": "Lila jest doświadczeniem edukacyjnym i refleksyjnym. Lila nie jest usługą medyczną, psychologiczną, terapią, narzędziem diagnostycznym ani profesjonalnym doradztwem. Refleksje, pytania i odpowiedzi generowane przez AI mają charakter wyłącznie wspierający osobistą refleksję i nie powinny być traktowane jako porada medyczna, psychologiczna, prawna ani profesjonalna."
             },
             {
                 "title": "Konto użytkownika",
-                "content": [
-                    "Niektóre funkcje wymagają utworzenia konta użytkownika.",
-                    "Użytkownik jest odpowiedzialny za zachowanie bezpieczeństwa swoich danych logowania oraz konta."
-                ]
+                "content": "Dostęp do niektórych funkcji może wymagać utworzenia konta. Użytkownik jest odpowiedzialny za zachowanie bezpieczeństwa danych swojego konta oraz za działania wykonywane przy jego użyciu."
+            },
+            {
+                "title": "Funkcje AI",
+                "content": "Lila wykorzystuje sztuczną inteligencję do generowania refleksyjnych odpowiedzi i zapewniania bardziej spersonalizowanych doświadczeń. Odpowiedzi generowane przez AI mogą zawierać nieścisłości i powinny być traktowane jako inspiracja do refleksji, a nie jako faktyczne lub profesjonalne wskazówki."
             },
             {
                 "title": "Treści użytkownika",
-                "content": [
-                    "Podczas korzystania z Lila możesz wprowadzać refleksje, odpowiedzi oraz osobiste przemyślenia.",
-                    "To Ty decydujesz, jakie informacje chcesz zapisać w aplikacji."
-                ]
+                "content": "Podczas korzystania z Lila możesz dodawać własne refleksje, odpowiedzi i inne treści. Pozostajesz odpowiedzialny za treści, które przesyłasz. Prosimy o nieudostępnianie informacji o innych osobach, jeśli nie masz prawa ich przekazywać."
             },
             {
                 "title": "Subskrypcje i płatności",
-                "content": [
-                    "Niektóre funkcje mogą wymagać wykupienia płatnej subskrypcji.",
-                    "Płatności są obsługiwane przez zewnętrznych operatorów płatności."
-                ]
+                "content": "Niektóre funkcje Lila mogą wymagać płatnej subskrypcji. Informacje o cenach, warunkach subskrypcji i płatności są prezentowane przed dokonaniem zakupu. Płatności są obsługiwane przez zewnętrznych dostawców usług płatniczych."
             },
             {
                 "title": "Usunięcie konta",
-                "content": [
-                    "Możesz poprosić o usunięcie swojego konta oraz powiązanych z nim danych."
-                ]
+                "content": "Możesz poprosić o usunięcie swojego konta oraz powiązanych z nim danych."
+            },
+            {
+                "title": "Zmiany w usłudze",
+                "content": "Możemy aktualizować lub modyfikować Lila w celu poprawy jakości działania, bezpieczeństwa oraz funkcjonalności usługi."
             },
             {
                 "title": "Kontakt",
-                "content": [
-                    "W przypadku pytań dotyczących niniejszego Regulaminu skontaktuj się z nami:"
-                ],
+                "content": "Jeśli masz pytania dotyczące niniejszego Regulaminu, skontaktuj się z nami:",
                 "footer": "yanayestyle@gmail.com"
+            }
+        ]
+    },
+    "privacyPage": {
+        "title": "Polityka Prywatności",
+        "content": [
+            "Ostatnia aktualizacja: 10.07.2026",
+            "Twoja prywatność jest dla nas ważna. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób Lila zbiera i wykorzystuje informacje podczas korzystania z aplikacji."
+        ],
+        "sections": [
+            {
+                "title": "Administrator danych",
+                "content": "Administratorem danych jest:",
+                "footer": "[NAZWA FIRMY]\n[ADRES]\n\nKontakt:\nyanayestyle@gmail.com"
+            },
+            {
+                "title": "Jakie dane zbieramy",
+                "content": "W celu świadczenia usług Lila możemy przetwarzać:",
+                "list": [
+                    "adres e-mail użyty do utworzenia konta;",
+                    "informacje o koncie użytkownika;",
+                    "postępy i historię gry;",
+                    "refleksje i odpowiedzi, które zdecydujesz się zapisać;",
+                    "informacje związane z subskrypcją i płatnościami;",
+                    "informacje techniczne niezbędne do działania i bezpieczeństwa usługi."
+                ]
+            },
+            {
+                "title": "Jak wykorzystujemy Twoje dane",
+                "content": "Wykorzystujemy Twoje dane, aby:",
+                "list": [
+                    "tworzyć i zarządzać Twoim kontem;",
+                    "zapisywać postępy w grze;",
+                    "udostępniać funkcje Lila;",
+                    "generować refleksje i odpowiedzi wspierane przez AI;",
+                    "obsługiwać subskrypcje i płatności;",
+                    "zapewniać bezpieczeństwo i niezawodność usługi."
+                ]
+            },
+            {
+                "title": "Przetwarzanie przez AI",
+                "content": "Niektóre funkcje Lila wykorzystują sztuczną inteligencję. Informacje, które podajesz, mogą być przetwarzane przez dostawców usług AI w celu generowania odpowiedzi i realizacji żądanych funkcji. AI nie jest wykorzystywana do diagnozowania, oceny ani określania stanu zdrowia psychicznego użytkownika."
+            },
+            {
+                "title": "Płatności",
+                "content": "Płatności są przetwarzane przez zewnętrznych dostawców usług płatniczych. Lila nie przechowuje pełnych danych kart płatniczych."
+            },
+            {
+                "title": "Przechowywanie danych",
+                "content": "Przechowujemy Twoje dane tak długo, jak długo Twoje konto pozostaje aktywne lub jest to niezbędne do świadczenia usługi. Możesz zażądać usunięcia swojego konta oraz powiązanych z nim danych."
+            },
+            {
+                "title": "Twoje prawa",
+                "content": "W zależności od miejsca zamieszkania możesz mieć prawo do:",
+                "list": [
+                    "dostępu do swoich danych osobowych;",
+                    "żądania sprostowania swoich danych;",
+                    "żądania usunięcia swoich danych;",
+                    "otrzymania kopii swoich danych;",
+                    "wycofania zgody, jeśli ma zastosowanie."
+                ]
+            },
+            {
+                "title": "Pliki cookies",
+                "content": "Lila wykorzystuje wyłącznie niezbędne pliki cookies i podobne technologie wymagane do:",
+                "list": [
+                    "uwierzytelniania użytkownika;",
+                    "zapewnienia bezpieczeństwa konta;",
+                    "utrzymywania sesji użytkownika;",
+                    "zapewnienia podstawowej funkcjonalności."
+                ],
+                "footer": "Nie używamy reklamowych ani śledzących plików cookies."
             }
         ]
     },
